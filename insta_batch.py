@@ -12,8 +12,8 @@ for i in os.listdir('.'):
         width, height = rs2.size
 
         draw = ImageDraw.Draw(rs2)
-        text = "#X_X_X!"
-        title = "HELLO"
+        text = "watermark:>"
+        title = "WHITE"
         font = ImageFont.truetype("georgia.ttf", 85)
         textwidth, textheight = draw.textsize(text, font)
 
